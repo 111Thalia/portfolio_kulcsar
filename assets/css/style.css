@@ -1,0 +1,25 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root {
+    --farba-pozadia: #FEF3FF
+    --primarny-text: #0E0E0C
+    --farba-nazvov: #853ECD
+    --farba-ramov: #FEDCF6
+
+    --primarne1: #FF88D8
+    --primarne2: #FFAFE5
+    --sekundarne1: #26113C
+    --sekundarne2:#642A9F
+    --akcent1:#4AAE5F
+    --akcent2:#77D48A
+    --akcent3:#8CE59E
+}
+
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #FEF3FF
+    
+}
+
