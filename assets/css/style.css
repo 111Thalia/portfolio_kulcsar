@@ -46,6 +46,11 @@ img{
     height: 80px;
     border-radius: 50%;
     object-fit: cover;
-    
+    display: flex;
+    flex-direction: column;
+    margin-left: 250px;
 }
+
+
+
 
