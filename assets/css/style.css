@@ -49,6 +49,11 @@ img{
     display: flex;
     flex-direction: column;
     margin-left: 250px;
+    
+}
+
+.obrazok {
+    overflow: hidden;
 }
 
 
