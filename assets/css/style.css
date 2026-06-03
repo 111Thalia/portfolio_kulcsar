@@ -138,7 +138,7 @@ letter-spacing: 3px;
 }
 
 /*===============================================================================*/
-  
+
 .moje__projekty_obal {
     text-align: center;
 }
@@ -160,7 +160,7 @@ letter-spacing: 3px;
 }
 
 .plagat {
-   width: 200px;
+    width: 200px;
     height: 300px;
     border-radius: 25px; 
 }
@@ -188,7 +188,7 @@ h4 {
 
 .moje__projekty_info2 {
     margin-bottom: 40px;
-     margin-top: 20px;
+    margin-top: 20px;
     background-color: #fedcf6;
     border-radius: 20px;
     margin-top: 20px;
@@ -226,7 +226,7 @@ h4 {
 }
 
 .kontaktovat {
-   background: #f7c6ea; 
+    background: #f7c6ea; 
     color: #3f205e;
     padding: 6px 13px;
     border-radius: 50px; 
