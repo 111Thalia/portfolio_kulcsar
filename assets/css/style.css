@@ -19,7 +19,9 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    background-color: #FEF3FF
+    background-color: #FEF3FF;
+     margin: 0;
+    padding: 0;
 }
 
 h1 {
@@ -41,7 +43,7 @@ header {
     align-items: center; 
     justify-content: space-between;
     background-color: #fedcf6;
-    border: 20px #3f205e;
+    border: 5px solid #fedcf6;
     width: 100%;
     }
 
@@ -94,6 +96,9 @@ header p {
     align-items: center;
 }
 
+.hero__sekcia {
+    margin-left: 20px;
+}
 .container {
     width: 100%;
 
@@ -107,7 +112,7 @@ header p {
 
 h2 {
     font-size: 30px;
-color: #642A9F;
+color: #853ecd;
 -webkit-text-stroke: 1px #3F205E;
 letter-spacing: 3px;
 }
@@ -149,6 +154,13 @@ letter-spacing: 3px;
 
 .moje__projekty_text {
     margin-top: 80px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.moje__projekty_text2 {
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .buducnost {
@@ -345,3 +357,191 @@ background: #f7c6ea;
     margin-top: 40px;
     border: 5px solid #642a9f;
 }
+
+
+.perspektiva {
+    width: 180px;
+    height: 250px;
+    border-radius: 25px; 
+    margin-top: 40px;
+    border: 5px solid #642a9f;
+}
+
+.plagat2 {
+    width: 180px;
+    height: 250px;
+    border-radius: 25px; 
+    margin-top: 40px;
+    border: 5px solid #642a9f;
+}
+
+/*===============================================================================*/
+/*O MNE*/
+/*===============================================================================*/
+
+
+.o__mne_obal_html {
+    text-align: center;
+}
+
+.o__mne_nazov {
+    letter-spacing: 5px;
+    font-size: 40px;
+
+}
+
+.o_mne_profil {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.o__mne_text_html {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+ .o__mne_druhy_odstavec {
+    padding-top: 10px;
+ }
+
+
+ .o__mne_studium_obal {
+    text-align: center;
+ }
+
+ .o__mne_studium_nazov {
+    margin-top: 50px;
+ }
+ 
+ .o__mne_studium_text {
+   margin-bottom: 35px;
+ }  
+
+.vs_code {
+    width: 80px;
+    height:80px;
+    border-radius: 25px;
+    border: 7px solid #853ecd;
+}
+
+.programovanie_text{
+    font-size: 12px;
+}
+
+.programovanie_text2{
+    font-size: 11px;
+    padding-top: 5px;
+}
+
+.canva {
+    width: 80px;
+    height:80px;
+    border-radius: 25px;
+    border: 7px solid #853ecd;
+}
+
+.premiere {
+    width: 80px;
+    height:80px;
+    border-radius: 25px;
+    border: 7px solid #853ecd;
+}
+
+
+.studium_obal {
+    display: flex;
+    align-content: center;
+}
+
+.studium {
+    background-color: #fedcf6;
+    border: solid #fedcf6 10px;
+    text-align: center;
+}
+
+/*===============================================================================*/
+/*KONTAKT*/
+/*===============================================================================*/
+
+
+.kontakt__obal {
+    text-align: center;
+}
+
+.kontakt__text {
+    line-height: 1.8;
+}
+
+
+input,
+textarea {
+    background-color: #f8e4ff; /* svetloružová */
+    border: none;              /* odstráni okraj */
+    border-radius: 12px;       /* zaoblené rohy */
+    padding: 15px;
+    font-size: 12px;
+}
+
+.formular__text {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.formular__email {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.formular__textarea {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kontakt_udajeee {
+    font-size: 12.5px;
+}
+
+.socialne_sieteee {
+    font-size: 12.5px;
+}
+
+.gmail_mobil {
+    background-color: #ffe4fb; /* svetloružová */
+    border: none;              /* odstráni okraj */
+    border-radius: 12px;       /* zaoblené rohy */
+    padding: 15px;
+    font-size: 12px;
+    margin-left:25px;
+    
+}
+
+.ssocialne_siete {
+    background-color: #ffe4fb; /* svetloružová */
+    border: none;              /* odstráni okraj */
+    border-radius: 12px;       /* zaoblené rohy */
+    padding: 25px;
+    font-size: 12px;
+    margin-left:25px;
+    margin-top:20px;
+}
+
+#gmail {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#mobil {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
