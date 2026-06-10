@@ -625,40 +625,87 @@ form {
 
 
     h3 {
-        font-size: 25px;
+        font-size: 30px;
+        margin-left: 50px;
     }
 
     .hero__sekcia{
-        margin-left: 300px;
+        margin-left: 200px;
 
     }
 
     .desktop_nazov {
-        font-size: 120px;
+        font-size: 80px;
+        margin-bottom: 30px;
+        margin-top: 80px;
     }
 
-.profilovka {
+    .profilovka {
     width: 180px;
     height: 180px;
-    margin-left:80px;
+    margin-left: 40px;
+    margin-top: 50px;
 }
 
-p {
-    font-size: 30px;
-}
-
-.mojeprojekty {
+    p {
     font-size: 20px;
+    margin-bottom: 30px;
+ 
+}
+
+    .mojeprojekty {
+    font-size: 22px;
+    margin-left: 78px;
+    margin-top: 0px;
+}
+
+    h2 {
+    font-size: 60px;
+}
+
+    .hero__obal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 80px;
+}
+
+    .hero-text {
+    text-align: center;
+    margin-right: 20px;
+}
+
+.o__mne_text {
+    margin-top: 50px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+.zistitviac {
+     font-size: 22px;
+     margin-top: 100px;
+    margin-left: 690px;
+}
+
+.moje__projekty_text {
+    margin-top: 130px;
+}
+
+h4 {
+    font-size: 25px;
+}
+
+
+.moje__projekty_info1 {
+    width: 30%;
     margin-left: 525px;
-
+    align-items: center;
 }
 
-h2 {
-    font-size: 50px;
+.info__projekty {
+    font-size: 20px;
 }
-
-
-
 
 }
 
