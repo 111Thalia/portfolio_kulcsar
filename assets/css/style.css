@@ -136,6 +136,7 @@ header p {
     letter-spacing: 1px;
     transition: 0.3s;
     font-size: x-small;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .hero__obal{
@@ -192,6 +193,7 @@ letter-spacing: 3px;
     transition: 0.3s;
     font-size: x-small;
     margin-left: 132px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /*===============================================================================*/
@@ -282,6 +284,7 @@ h4 {
     transition: 0.3s;
     font-size: x-small;
     margin-left: 120px;
+    font-family: 'Open Sans', sans-serif;
 
 }
 
@@ -304,6 +307,7 @@ h4 {
     transition: 0.3s;
     font-size: x-small;
     margin-left: 120px; 
+    font-family: 'Open Sans', sans-serif;
 }
 
 footer {
@@ -315,7 +319,7 @@ footer {
 
 footer p {
     color: #3f205e;
-    font-size: 18px;
+    font-size: 12px;
     font-family: 'Open Sans', sans-serif;
     margin: 0;
 }
@@ -364,6 +368,7 @@ background: #f7c6ea;
     letter-spacing: 1px;
     transition: 0.3s;
     font-size: x-small;
+    font-family: 'Open Sans', sans-serif;
 
 }
 
@@ -377,6 +382,7 @@ background: #f7c6ea;
     letter-spacing: 1px;
     transition: 0.3s;
     font-size: x-small;
+    font-family: 'Open Sans', sans-serif;
 
 }
 
@@ -391,6 +397,7 @@ background: #f7c6ea;
     letter-spacing: 1px;
     transition: 0.3s;
     font-size: x-small;
+    font-family: 'Open Sans', sans-serif;
 
 }
 
@@ -616,7 +623,7 @@ form {
     .menu {
         display: none;
         flex-direction: column;
-        background: #333;
+        background: #ffffff;
         position: absolute;
         top: 60px;
         left: 0;
@@ -642,6 +649,7 @@ form {
 @media (min-width:768px) {
 
 /*---------------index------------------*/
+
 
 
     h3 {
@@ -716,6 +724,11 @@ form {
     margin-left: 700px;
      font-family: 'Open Sans', sans-serif;
 }
+
+footer p {
+   font-size: 18px; 
+}
+
 
 .moje__projekty_text {
     margin-top: 130px;
@@ -901,8 +914,6 @@ h4 {
 .kontakt__text {
     line-height: 20px;
 }
-
-
 
 .kontakt_udajeee {
     margin-right: 40px;
