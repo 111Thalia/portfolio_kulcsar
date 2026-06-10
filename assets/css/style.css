@@ -66,11 +66,13 @@ nav {
     .menu {
     display: flex;
     gap: 20px;
+    font-family: Nunito;
     }
 
     .menu a {
-    color: white;
-    text-decoration: none;
+    color: #3f205e;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
     }
 
     /* Mobile styles */
@@ -302,6 +304,20 @@ h4 {
     transition: 0.3s;
     font-size: x-small;
     margin-left: 120px; 
+}
+
+footer {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #FEF3FF; 
+    margin-top: 30px;
+}
+
+footer p {
+    color: #3f205e;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
 }
 
 /*===============================================================================*/
@@ -618,6 +634,10 @@ form {
 }
 
 /*-------------------------------------------------*/
+/*-------------------------------------------------*/
+/*-------------------------------------------------*/
+/*-------------------------------------------------*/
+/*-------------------------------------------------*/
 
 @media (min-width:768px) {
 
@@ -657,6 +677,7 @@ form {
     font-size: 22px;
     margin-left: 78px;
     margin-top: 0px;
+     font-family: 'Open Sans', sans-serif;
 }
 
     h2 {
@@ -681,11 +702,19 @@ form {
     margin-bottom: 20px;
 }
 
+.moje__projekty_obal {
+    text-align: center;
+}
+
+.moje__projekty_text2 {
+    text-align: center;
+}
 
 .zistitviac {
-     font-size: 22px;
+     font-size: 25px;
      margin-top: 100px;
-    margin-left: 690px;
+    margin-left: 700px;
+     font-family: 'Open Sans', sans-serif;
 }
 
 .moje__projekty_text {
@@ -693,21 +722,236 @@ form {
 }
 
 h4 {
-    font-size: 25px;
+    font-size: 27px;
 }
 
 
 .moje__projekty_info1 {
     width: 30%;
-    margin-left: 525px;
-    align-items: center;
+    margin-left: 545px;
+    text-align: center;
 }
 
 .info__projekty {
+    font-size: 22px;
+}
+
+
+.moje__projekty_info2 {
+        width: 30%;
+    margin-left: 545px;
+    text-align: center;
+}
+
+.buducnost {
+    width: 400px;
+    height: 275px;
+}
+
+.benatky {
+    width: 275px;
+    height: 400px;
+}
+
+.plagat {
+    width: 275px;
+    height: 400px;
+}
+
+
+.moje__projekty_info3 {
+        width: 30%;
+    margin-left: 545px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.mojeprojektyy {
+    font-size: 25px;
+     margin-top: 120px;
+    margin-left: 675px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.zaver {
+    margin-top: 100px;
+}
+
+.kontaktovat {
+    font-size: 25px;
+     margin-top: 100px;
+    margin-left: 690px; 
+     font-family: 'Open Sans', sans-serif;
+}
+
+
+/*--------------------------------------------------------------*/
+/*PORTFOLIO*/
+/*--------------------------------------------------------------*/
+
+
+.portfolio__nazov {
+    font-size: 80px;
+}
+
+.kalendarr {
+    width: 275px;
+    height: 400px;
+}
+
+.zobrazitprojekt {
+    font-size: 25px;
+    margin-top: 100px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.meno {
+    width: 400px;
+    height: 275px;
+}
+.zobrazitprojekt1 {
+    font-size: 25px;
+    margin-top: 100px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.reinterpretacia {
+    width: 400px;
+    height: 275px;
+}
+
+.buducnost2 {
+    width: 400px;
+    height: 275px;
+}
+
+.perspektiva {
+    width: 275px;
+    height: 400px;
+}
+
+.plagat2 {
+    width: 275px;
+    height: 400px;
+}
+
+/*--------------------------------------------------------------*/
+/*O MNE*/
+/*--------------------------------------------------------------*/
+
+.o_mne_profil {
+    width: 180px;
+    height: 180px;
+    margin-bottom: 20px;
+}
+
+.o__mne_nazov {
+    font-size: 80px;
+    margin-bottom: 10px;
+}
+
+.ahojj {
+    font-size: 35px;
+}
+
+
+.o__mne_text_html {
+    margin-bottom: 0px;
+}
+
+.vs_code {
+    width: 170px;
+    height: 170px;
+}
+
+.canva {
+    width: 170px;
+    height: 170px;
+}
+
+.premiere {
+    width: 170px;
+    height: 170px;
+}
+
+.programovanie_text {
+    font-size: 25px;
+}
+
+.programovanie_text2 {
+    font-size: 17.5px;
+}
+
+.studium {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+/*--------------------------------------------------------------*/
+/*KONTAKT*/
+/*--------------------------------------------------------------*/
+
+.kontakt__nazov {
+    font-size: 80px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.kontakt__text {
+    line-height: 20px;
+}
+
+
+
+.kontakt_udajeee {
+    margin-right: 40px;
+    margin-left: 40px;
     font-size: 20px;
 }
 
+.formular__email {
+    margin-left: 150px;
+    margin-right: 20px;
+    font-size: 20px;
+    padding: 40px;
 }
+
+.formular__textarea {
+    margin-left: 150px;
+    font-size: 20px;
+    padding: 40px;
+
+}
+
+.formular__text {
+    margin-right: 20px;
+    font-size: 20px;
+    padding: 40px;
+    margin-left: 150px;
+}
+
+.ssocialne_siete {
+    margin-top: 30px;
+    margin-left: 650px;
+    padding: 20px;
+}
+
+.gmail_mobil {
+    margin-left: 650px;
+    padding: 0px;
+    margin-top: 20px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: row;
+
+}
+
+}
+
 
 
 
